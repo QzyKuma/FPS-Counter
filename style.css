@@ -1,0 +1,29 @@
+#glass-panel {
+    color: #020202;
+    margin: 40px auto;
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: auto;
+    border-radius: 15px;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    font-style: inherit;
+    font-family: montserrat, monospace;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+
+/*Original Code above */
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
